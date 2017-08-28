@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    align-items: center;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+h3{
+    color: black;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+#registerButton, #lookButton{
+    margin: auto, 0;
+    align-items: center;
+    background-color: grey;
+    height: 200px;
+    width: 400px;
+    border: none;
+}
+
+#registerButton:hover{
+
+    cursor: pointer;
+    background-color: lightskyblue;
+
+}
+
+#lookButton:hover{
+    cursor: pointer;
+    background-color: olive;
+}
+
+#buttonHolder{
+    margin: auto,0;
+    text-align: center;
+}
+
+#MainForm{
+    margin: auto,0;
+    text-align: center;
+}
+
+#retButton{
+    margin: auto, 0;
+    align-items: center;
+    background-color: grey;
+    height: 200px;
+    width: 400px;
+    border: none;
+}
+
+
+
+
+
