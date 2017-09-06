@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Demo Login</title>
+</head>
+<body>
+
+  <h1>Login</h1>
+
+  <form>
+    <div>
+      <label for="first-name">Username:</label>
+      <input type="text" name="user" id="user" required />
+    </div>
+
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email">
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" pattern=".{5,10}" required title="5 to 10 characters">
+    </div>
+    <div>
+      <label for="cpassword">Confirm Password:</label>
+      <input type="password" name="cpassword" id="cpassword" pattern=".{5,10}" required title="5 to 10 characters">
+    </div>
+
+    <div>
+      <input type="submit" value="Submit" />
+    </div>
+  </form>
+
+</body>
+</html>
