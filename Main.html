@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Find me Events</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+        <script>
+
+            $(document).ready(function(){
+
+                $("#registerButton").click(function(){
+
+                    window.open ('CreateEvent.html','_self',false);
+
+                });
+
+                $("#lookButton").click(function(){
+
+                    window.open ('LookEvent.html','_self',false);
+                    
+                });  
+
+            });
+
+        </script>
+    </head>
+    <body>
+        <h2>What do you want to do: </h2>
+        <input type="button" value="Register your Event!" id="registerButton">
+        <input type="button" value="Look for an Event!" id="lookButton">
+        
+    </body>
+</html>
